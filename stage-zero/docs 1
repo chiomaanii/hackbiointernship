@@ -1,1 +1,10 @@
-
+my_info = {
+    "name": "chiomaanii",
+    "slack username": "oma",
+    "email": "chiomam260@gmail.com",
+    "hobby": "gazing at the beauty of nature in its diversity",
+    "country": "Nigeria",
+    "discipline": "cell biology and genetics",
+    "Preferred Programming Language": "Python"  
+}
+print(my_info) 
