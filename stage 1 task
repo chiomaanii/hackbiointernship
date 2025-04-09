@@ -1,0 +1,61 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPEWz7mCEZ/QfpVtGX3n6j1",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/chiomaanii/hackbiointernship/blob/main/stage%201%20task\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 11,
+      "metadata": {
+        "id": "j7AWjYvbKfaU",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "5adc02f8-bc33-4d57-ef91-2118f11721ef"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{'ATG': 'Methionine (start codon)', 'TTT': 'Phenylalanine', 'CCC': 'Proline', 'GGG': 'Glycine', 'TAA': 'Stop codon'}\n"
+          ]
+        }
+      ],
+      "source": [
+        "genetic_code_to_protein = {\n",
+        "\n",
+        "        \"ATG\": \"Methionine (start codon)\",\n",
+        "        \"TTT\": \"Phenylalanine\",\n",
+        "        \"CCC\": \"Proline\",\n",
+        "        \"GGG\": \"Glycine\",\n",
+        "        \"TAA\": \"Stop codon\"\n",
+        "    }\n",
+        "print(genetic_code_to_protein)"
+      ]
+    }
+  ]
+}
